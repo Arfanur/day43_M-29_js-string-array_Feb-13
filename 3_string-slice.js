@@ -29,5 +29,5 @@ const words2 = ['alim', 'badhon', 'cameron', 'david'];
 // const allJoined = words2.join(' ');
 // const allJoined = words2.join(',');
 // const allJoined = words2.join(', ');
-const allJoined = words2.join(' WWW ');
+const allJoined = words2.join('WWW ');
 console.log(allJoined);
