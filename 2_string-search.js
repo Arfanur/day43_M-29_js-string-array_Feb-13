@@ -10,7 +10,7 @@ const products = [
 
 const searching = 'Dell';
 
-// indexOf
+// indexOf()  (first matching index)
 
 const output = [];
 for (const product of products) {
@@ -18,8 +18,9 @@ for (const product of products) {
         // output.push(product);
     }
 }
-
 // console.log(output);
+
+// includes() _kono index number nai. indexOf() er moto !=-1 dile kaj korbe na.
 for (const product of products) {
     if (product.toLowerCase().includes(searching.toLowerCase())) {
         // output.push(product);
